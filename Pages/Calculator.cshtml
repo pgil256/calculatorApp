@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="~/css/calculator.css">
+</head>
+<body>
+    <div id="calculator-container">
+        <div id="calculator" class="shadow-lg">
+            <div id="display" tabindex="0" aria-live="polite" aria-atomic="true">0</div>
+            <div id="buttons-container">
+                <button class="btn" data-operation="clear">C</button>
+                <button class="btn" data-operation="divide">/</button>
+                <button class="btn" data-operation="multiply">*</button>
+                <button class="btn" data-operation="subtract">-</button>
+                <!-- Number buttons 1-9 -->
+                <button class="btn" data-num="1">1</button>
+                <button class="btn" data-num="2">2</button>
+                <button class="btn" data-num="3">3</button>
+                <button class="btn" data-num="4">4</button>
+                <button class="btn" data-num="5">5</button>
+                <button class="btn" data-num="6">6</button>
+                <button class="btn" data-num="7">7</button>
+                <button class="btn" data-num="8">8</button>
+                <button class="btn" data-num="9">9</button>
+                <button class="btn" data-operation="add">+</button>
+                <button class="btn zero" data-num="0">0</button>
+                <button class="btn" data-operation="decimal">.</button>
+                <button class="btn equals" data-operation="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/calculator.js"></script>
+</body>
+</html>
